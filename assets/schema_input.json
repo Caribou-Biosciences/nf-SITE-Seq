@@ -1,0 +1,64 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/Caribou-Biosciences/nf-SITE-Seq/main/assets/schema_input.json",
+    "title": "Caribou-Biosciences/nf-SITE-Seq pipeline - params.input schema",
+    "description": "Schema for the file provided with params.input",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "sample_group": {
+                "type": "string",
+                "pattern": "^\\S+$",
+                "errorMessage": "An identifier used to group samples. Typically the name of the on-target locus but may include other condition variables. Cannot contain spaces.",
+                "meta": ["sample_group"]
+            },
+            "control_group": {
+                "type": "string",
+                "pattern": "^\\S+$",
+                "errorMessage": "The `sample_group` of the corresponding control samples. Cannot contain spaces. For control samples, this column must be empty.",
+                "meta": ["control_group"],
+                "default": ""
+            },
+            "concentration": {
+                "type": "integer",
+                "errorMessage": "The NPC concentration of the sample. Should be 0 for control samples.",
+                "meta": ["conc"]
+            },
+            "replicate": {
+                "type": "integer",
+                "errorMessage": "An identifier that differentiates samples with the sample `sample_group` and `concentration`",
+                "meta": ["rep"]
+            },
+            "on_target_motif": {
+                "type": "string",
+                "pattern": "^[AGCTRYBDKMHVSWNagctrybdkmhvswn]+$",
+                "errorMessage": "The motif sequence of the on-target; includes the spacer sequence and the PAM sequence. For control samples, this column can be empty.",
+                "meta": ["on_target_motif"],
+                "default": ""
+            },
+            "on_target_location": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9-_.]+:[\\d,]+-[\\d,]+(,(\\+|-))?$",
+                "errorMessage": "The coordinate string of the location of the on-target; includes the spacer sequence and the PAM sequence. For control samples, this column can be empty.",
+                "meta": ["on_target_location"],
+                "default": ""
+            },
+            "fastq_1": {
+                "type": "string",
+                "format": "file-path",
+                "exists": true,
+                "pattern": "^\\S+\\.f(ast)?q\\.gz$",
+                "errorMessage": "FastQ file for reads 1 must be provided, cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz'"
+            },
+            "fastq_2": {
+                "type": "string",
+                "format": "file-path",
+                "exists": true,
+                "pattern": "^\\S+\\.f(ast)?q\\.gz$",
+                "errorMessage": "FastQ file for reads 2 cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz'"
+            }
+        },
+        "required": ["sample_group", "concentration", "replicate", "fastq_1"]
+    }
+}

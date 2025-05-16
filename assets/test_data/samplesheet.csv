@@ -1,0 +1,16 @@
+sample_group,control_group,concentration,replicate,on_target_motif,on_target_location,fastq_1,fastq_2
+AAVS1_FastAP,HEK293_FastAP,256,1,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_256nM_R1_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_256nM_R1_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,256,2,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_256nM_R2_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_256nM_R2_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,256,3,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_256nM_R3_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_256nM_R3_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,64,1,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_64nM_R1_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_64nM_R1_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,64,2,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_64nM_R2_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_64nM_R2_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,64,3,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_64nM_R3_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_64nM_R3_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,16,1,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_16nM_R1_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_16nM_R1_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,16,2,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_16nM_R2_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_16nM_R2_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,16,3,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_16nM_R3_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_16nM_R3_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,4,1,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_4nM_R1_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_4nM_R1_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,4,2,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_4nM_R2_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_4nM_R2_R2_001.fastq.gz
+AAVS1_FastAP,HEK293_FastAP,4,3,GGGGCCACTAGGGACAGGATTGG,chr19:55115749-55115771,assets/test_data/AAVS1_FastAP_4nM_R3_R1_001.fastq.gz,assets/test_data/AAVS1_FastAP_4nM_R3_R2_001.fastq.gz
+HEK293_FastAP,,0,1,,,assets/test_data/HEK293_FastAP_0nM_R1_R1_001.fastq.gz,assets/test_data/HEK293_FastAP_0nM_R1_R2_001.fastq.gz
+HEK293_FastAP,,0,2,,,assets/test_data/HEK293_FastAP_0nM_R2_R1_001.fastq.gz,assets/test_data/HEK293_FastAP_0nM_R2_R2_001.fastq.gz
+HEK293_FastAP,,0,3,,,assets/test_data/HEK293_FastAP_0nM_R3_R1_001.fastq.gz,assets/test_data/HEK293_FastAP_0nM_R3_R2_001.fastq.gz
