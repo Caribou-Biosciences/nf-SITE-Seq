@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### `Added`
 
 ### `Fixed`
+
+### `Dependencies`
+
+### `Deprecated`
+
+## v1.0.1 - [28 July 2025]
+
+### `Added`
+
+### `Fixed`
 - Make AWS client anonymous for `-profile test`
 
 ### `Dependencies`
