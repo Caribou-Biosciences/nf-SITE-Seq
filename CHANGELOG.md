@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### `Added`
 
 ### `Fixed`
+- Update `process.shell` to use a list rather than a multi-line string https://nf-co.re/advisories/process-shell-configuration
 
 ### `Dependencies`
 
